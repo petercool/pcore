@@ -40,7 +40,7 @@ Tested locally: `claude --plugin-dir /path/to/pcore`
 - Every skill's `description` MUST include trigger phrases for auto-invocation
 - Template files in `references/` use `{{PLACEHOLDER}}` syntax
 - All directories live at plugin root — NOT inside `.claude-plugin/`
-- Only `plugin.json` goes in `.claude-plugin/`
+- Only plugin metadata files (`plugin.json` and `marketplace.json`) go in `.claude-plugin/`
 
 ## Current skills
 

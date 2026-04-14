@@ -50,8 +50,8 @@ fig.show()
 
 ```python
 # Named parameter signals
-entries = rsi.vbt.crossed_below(vbt.Param(list(range(20, 31)), name="lower_th"))
-exits = rsi.rsi_crossed_above(vbt.Param(list(range(70, 81)), name="upper_th"))
+entries = rsi.rsi.vbt.crossed_below(vbt.Param(list(range(20, 31)), name="lower_th"))
+exits = rsi.rsi.vbt.crossed_above(vbt.Param(list(range(70, 81)), name="upper_th"))
 
 # Conditional parameters (fast < slow constraint)
 entries, exits = get_signals(

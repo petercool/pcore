@@ -376,6 +376,7 @@ def build_walk_forward_folds(index, min_train_bars=1260, oos_bars=252, embargo=5
     return folds
 
 # Apply to backtesting
+folds = build_walk_forward_folds(close.index)
 for fold in folds:
     train_close = close.iloc[fold["train_slice"]]
     test_close = close.iloc[fold["test_slice"]]
