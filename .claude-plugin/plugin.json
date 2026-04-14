@@ -1,0 +1,21 @@
+{
+  "name": "pcore",
+  "version": "0.1.0",
+  "description": "Personal full-stack Claude Code plugin — research workflows, development patterns, productivity skills, and Crescendo market data access.",
+  "author": {
+    "name": "Sonami"
+  },
+  "repository": "https://github.com/petercool/pcore",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "iterate",
+    "develop",
+    "experiment",
+    "workflow",
+    "methodology",
+    "crescendo",
+    "clickhouse",
+    "market-data"
+  ]
+}
