@@ -5,8 +5,12 @@
 Personal full-stack Claude Code plugin. Skills, agents, and hooks for
 research workflows, development patterns, and productivity.
 
-Installed via: `claude plugin install pcore@petercool`
-Tested locally: `claude --plugin-dir /path/to/pcore`
+Add marketplace (one-time):
+  `claude plugin marketplace add petercool https://github.com/petercool/pcore`
+Install:
+  `claude plugin install pcore@petercool`
+Test locally:
+  `claude --plugin-dir /path/to/pcore`
 
 ## How to develop
 

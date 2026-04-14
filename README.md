@@ -5,12 +5,55 @@ and productivity skills.
 
 ## Installation
 
+### Step 1: Add the marketplace
+
+Claude Code needs to know where to find `pcore`. Register this repo as
+a plugin marketplace (one-time):
+
 ```bash
-# From GitHub
+# Via CLI
+claude plugin marketplace add petercool https://github.com/petercool/pcore
+
+# Or in a Claude Code session
+/plugin marketplace add petercool https://github.com/petercool/pcore
+```
+
+This tells Claude Code that `petercool` is a marketplace hosted at this
+GitHub repo, and that its `.claude-plugin/marketplace.json` lists
+available plugins.
+
+### Step 2: Install the plugin
+
+```bash
+# Via CLI
 claude plugin install pcore@petercool
 
-# From local path (development)
+# Or in a Claude Code session
+/plugin install pcore@petercool
+```
+
+### Step 3: Verify
+
+```bash
+# Check the plugin is loaded
+claude /help
+# → should list /pcore:research-iterate-develop, /pcore:vectorbt-pro, etc.
+```
+
+### Local development (no marketplace needed)
+
+```bash
+# Load directly from a local path — useful for developing new skills
 claude --plugin-dir /path/to/pcore
+
+# Reload after editing skills (inside a session)
+/reload-plugins
+```
+
+### Uninstall
+
+```bash
+claude plugin uninstall pcore@petercool
 ```
 
 ## Available skills
