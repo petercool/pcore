@@ -1,0 +1,29 @@
+{
+  "name": "petercool",
+  "owner": {
+    "name": "Sonami"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace — research workflows, development patterns, and productivity skills.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pcore",
+      "source": ".",
+      "version": "0.1.0",
+      "description": "Personal full-stack Claude Code plugin — research workflows, development patterns, and productivity skills.",
+      "license": "MIT",
+      "keywords": [
+        "research",
+        "iterate",
+        "develop",
+        "experiment",
+        "workflow",
+        "methodology",
+        "vectorbt",
+        "backtest"
+      ]
+    }
+  ]
+}
