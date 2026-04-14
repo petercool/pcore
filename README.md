@@ -11,34 +11,26 @@ Claude Code needs to know where to find `pcore`. Register this repo as
 a plugin marketplace (one-time):
 
 ```bash
-# Via CLI
-claude plugin marketplace add petercool https://github.com/petercool/pcore
-
-# Or in a Claude Code session
-/plugin marketplace add petercool https://github.com/petercool/pcore
+claude plugin marketplace add https://github.com/petercool/pcore
 ```
 
-This tells Claude Code that `petercool` is a marketplace hosted at this
-GitHub repo, and that its `.claude-plugin/marketplace.json` lists
+This tells Claude Code that `petercool/pcore` is a marketplace. Claude
+clones the repo and reads `.claude-plugin/marketplace.json` to discover
 available plugins.
 
 ### Step 2: Install the plugin
 
 ```bash
-# Via CLI
 claude plugin install pcore@petercool
-
-# Or in a Claude Code session
-/plugin install pcore@petercool
 ```
 
 ### Step 3: Verify
 
-```bash
-# Check the plugin is loaded
-claude /help
-# → should list /pcore:research-iterate-develop, /pcore:vectorbt-pro, etc.
+In a Claude Code session:
 ```
+/help
+```
+Should list `/pcore:research-iterate-develop`, `/pcore:vectorbt-pro`, etc.
 
 ### Local development (no marketplace needed)
 

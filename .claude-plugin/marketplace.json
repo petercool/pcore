@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "pcore",
-      "source": ".",
+      "source": "./",
       "version": "0.1.0",
       "description": "Personal full-stack Claude Code plugin — research workflows, development patterns, and productivity skills.",
       "license": "MIT",
