@@ -5,13 +5,13 @@
   },
   "metadata": {
     "description": "Personal Claude Code plugin marketplace — research workflows, development patterns, and productivity skills.",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "pcore",
       "source": "./",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "description": "Personal full-stack Claude Code plugin — research workflows, development patterns, and productivity skills.",
       "license": "MIT",
       "keywords": [
