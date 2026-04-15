@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/petercool/pcore/compare/v0.2.0...v0.3.0) (2026-04-15)
+
+
+### Features
+
+* **skills:** add content-brainstorm and content-engine skills ([7445d00](https://github.com/petercool/pcore/commit/7445d0012da41994d6b4c2b873643a39581ab4e2))
+* **skills:** add content-brainstorm and content-engine skills ([7bbce4f](https://github.com/petercool/pcore/commit/7bbce4f956c6132f8ba6c764f9a5c43886e94148))
+
+
+### Bug Fixes
+
+* **skills:** address PR [#4](https://github.com/petercool/pcore/issues/4) review feedback ([93f7cad](https://github.com/petercool/pcore/commit/93f7cad785336681e6a29570ac95e45f9a180538))
+
 ## [0.2.0](https://github.com/petercool/pcore/compare/v0.1.0...v0.2.0) (2026-04-14)
 
 
