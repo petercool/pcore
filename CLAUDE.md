@@ -58,3 +58,5 @@ Test locally:
 | bigquery | `/pcore:bigquery` | Google BigQuery — read/write DataFrames, schema, partitioning, Parquet uploads |
 | parquet | `/pcore:parquet` | Apache Parquet — partitioning, compression, DuckDB scans, BigQuery upload |
 | prefect | `/pcore:prefect` | Prefect v3 workflows — flows, tasks, work pools, concurrency, Ray integration |
+| content-brainstorm | `/pcore:content-brainstorm` | Brainstorm content angles from source material — headlines, hooks, descriptions, image plans across LinkedIn/X/blog/podcast/email |
+| content-engine | `/pcore:content-engine` | Turn a topic into platform-native posts across LinkedIn/X/Newsletter (v1) — each post rethinks the topic, never reformatted. 17-file content engine with voice, hooks, repurposing chain, audience segments |
