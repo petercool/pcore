@@ -27,7 +27,7 @@
 
 ## Stubs — Steps 4–8 (Phase 2)
 
-When IG / TikTok / YouTube / Threads / Facebook go active, insert them here in this order (per Shann's chain):
+When IG / TikTok / YouTube / Threads / Facebook go active, insert them here in the following required order:
 
 - **Step 4 — Instagram** (make it visual; 7-slide carousel).
 - **Step 5 — TikTok** (make it raw; 45–60s spoken script).

@@ -50,7 +50,7 @@ Only the **format** and the **angle** change per platform. The character doesn't
 
 **Tone markers:**
 - Short sentences. Every line earns the next line.
-- Sentence case by default. Lowercase is fine occasionally for emphasis; pure lowercase isn't Peter's register (investor audience skews slightly more formal than Shann's default).
+- Sentence case by default. Lowercase is fine occasionally for emphasis; pure lowercase isn't Peter's register (investor audience skews slightly more formal than pure-lowercase Twitter style).
 - Light humor and dry asides are in. Sarcasm is out.
 - Contrarian takes are allowed *only when framed with reasoning* — never as provocation. "Here's the non-obvious angle" beats "everyone's wrong."
 - Threads: 5–12 tweets. Each tweet stands alone. No cliffhangers like "…the reason will shock you."

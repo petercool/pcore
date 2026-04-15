@@ -27,7 +27,7 @@ At the start of every invocation, load the reference files upfront.
 - `references/index.md` — identity, niche, node map, execution instructions
 - `references/voice/brand-voice.md` — core voice principles (charisma, respect, trust, never-talk-down) and anti-patterns
 - `references/voice/platform-tone.md` — per-platform voice adaptation
-- `references/engine/hooks.md` — 8 canonical hook formulas + exclusion list + respect test
+- `references/engine/hooks.md` — 14 canonical hooks + exclusion list + respect test
 - `references/engine/repurpose.md` — chain order, annoyance test, per-platform change table
 - `references/engine/scheduling.md` — cadence and peak times
 - `references/engine/content-types.md` — 6 format definitions
@@ -53,7 +53,7 @@ The user provides a topic. Before proceeding:
 
 ## Step 2 — Hook Selection
 
-For each of the 3 active platforms, pick 2–3 candidate hooks from the **approved taxonomy** in `engine/hooks.md` (14 formulas, grouped into three families):
+For each of the 3 active platforms, pick 2–3 candidate hooks from the **approved taxonomy** in `references/engine/hooks.md` (14 formulas, grouped into three families):
 
 - **Evidence-led:** Data Lead · Proof · Credibility (Grounded) · Value / Resource Drop
 - **Insight-led:** Framework · Non-Obvious Angle · Collision · Counter-Intuitive Mechanism · Risk-Aware Warning · Eloquence / Aphorism
@@ -67,27 +67,27 @@ For each of the 3 active platforms, pick 2–3 candidate hooks from the **approv
 
 ## Step 3 — Execute Repurposing Chain (v1 = 3 platforms)
 
-Execute in this exact order (per `engine/repurpose.md`):
+Execute in this exact order (per `references/engine/repurpose.md`):
 
 ### Step 3a — X (first)
 Forces brevity and finds the core. If the idea can't survive compression to 280 chars (or a tight 5–12 tweet thread), it isn't ready.
 
-- Voice: `voice/platform-tone.md` → X section
-- Format: per `platforms/x.md` (single tweet OR thread)
+- Voice: `references/voice/platform-tone.md` → X section
+- Format: per `references/platforms/x.md` (single tweet OR thread)
 - Hook: from Step 2 selection
 
 ### Step 3b — LinkedIn (second)
 Different angle from X — not reformatted. Institutional framing, narrative arc, professional warmth.
 
-- Voice: `voice/platform-tone.md` → LinkedIn section
-- Format: per `platforms/linkedin.md` (1,300–2,000 char post)
+- Voice: `references/voice/platform-tone.md` → LinkedIn section
+- Format: per `references/platforms/linkedin.md` (1,300–2,000 char post)
 - Hook: different hook family from X, from Step 2 selection
 
 ### Step 3c — Newsletter (third)
 Deepest version. Full reasoning + counterargument + invalidation condition. Post-mortem element if relevant.
 
-- Voice: `voice/platform-tone.md` → Newsletter section
-- Format: per `platforms/newsletter.md` (1,000–2,000 word essay with section headers)
+- Voice: `references/voice/platform-tone.md` → Newsletter section
+- Format: per `references/platforms/newsletter.md` (1,000–2,000 word essay with section headers)
 - Hook: often Walk-Through, Honest Correction, or Collision
 
 ## Step 4 — Annoyance Test (Mandatory Gate)
@@ -123,7 +123,7 @@ Do not attempt full drafts for stub platforms. Doing so violates the design of v
 ## Step 6 — Scheduling Recommendation
 
 For each of the 3 active-platform drafts, include:
-- Recommended posting day (per `engine/scheduling.md`)
+- Recommended posting day (per `references/engine/scheduling.md`)
 - Recommended posting time window
 - If the drafts belong to the same topic run, note a staggered schedule (default: X Tue 8am → LinkedIn Wed 8am → Newsletter Thu 9am)
 
@@ -135,7 +135,7 @@ End the run by inviting Peter to refine the system:
 3. Any voice calibration to refine in `platform-tone.md`?
 4. Any new audience signals to update `audience/*.md`?
 
-This is Shann's "compound interest for content" — the engine gets smarter each week Peter iterates.
+This is the engine's compound-interest effect for content — it gets smarter each week Peter iterates.
 
 ## Quality Checklist
 

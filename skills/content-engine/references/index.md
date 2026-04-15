@@ -32,7 +32,7 @@ Every node below is [[wikilinked]] for cross-file navigation inside this referen
 - [[platform-tone]] — how the core voice adapts across LI / X / Newsletter (v1 active). Different energy, same person.
 
 ### Engine
-- [[hooks]] — 8 canonical hook formulas (Data Lead, Framework, Non-Obvious Angle, Collision, Walk-Through, Proof, Honest Correction, Question). Includes explicit exclusion list and the respect test.
+- [[hooks]] — canonical hook taxonomy (14 formulas grouped into Evidence-led / Insight-led / Invitation-led families). `engine/hooks.md` is the source of truth for the current approved set, exclusion list, and respect test.
 - [[repurpose]] — 8-step chain order, the annoyance test, and the "what changes per platform" table.
 - [[scheduling]] — weekly cadence, peak times, batch workflow (Sunday 2–3 topics for the week).
 - [[content-types]] — six format definitions (Thread, Carousel, Short-Form Video, Long-Form Video, Long-Form Text, Short Take).

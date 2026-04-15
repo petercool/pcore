@@ -33,7 +33,7 @@ Loading them once at the start avoids mid-workflow disruption and keeps proposal
 
 ## Step 1: Clarify Platform, Audience, and Constraints
 
-Before brainstorming, ensure you have the six inputs below. **Skip clarifying questions for any input already explicit (or strongly implied) in the user's prompt or attached source material — only ask about genuinely missing fields.** Use `ask_user_question` for the remaining gaps:
+Before brainstorming, ensure you have the six inputs below. **Skip clarifying questions for any input already explicit (or strongly implied) in the user's prompt or attached source material — only ask about genuinely missing fields.** Ask the user about any remaining gaps:
 
 1. **Source material** — What document/report/data are we extracting content from? (The user may paste it or provide a file.)
 2. **Platform(s)** — Where will this content appear? (LinkedIn, X/Twitter, Instagram, blog, podcast, email newsletter, other)
